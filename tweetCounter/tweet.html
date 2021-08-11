@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet count</title>
+    <link rel="stylesheet" href="tweet.css" />
+  </head>
+  <div class="container">
+      <div class="btn">
+        <button onclick="start()">start here</button><br />
+        <button onclick="stop()">Stop here</button>
+      </div>
+      <div class="tweet-container">
+        <textarea class="multitext"
+          oninput="count(event)"
+          rows="10"
+          maxlength="40"
+          placeholder="whatsapp!"
+        ></textarea
+        ><span class="count">0/40</span>
+      </div>
+      <script src="tweet.js"></script>
+    
+</div>
+  </body>
+</html>

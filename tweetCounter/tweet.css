@@ -1,0 +1,53 @@
+.container {
+  font: bold;
+  margin: 100px;
+  /* max-width: 300px; */
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align: center;
+  border: 3px solid #ff00ff;
+  background-color: #fff;
+}
+
+.btn {
+  align-items: center;
+  background-color: chartreuse;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+
+  margin: 10px;
+}
+button {
+  align-items: center;
+  align: center;
+  display: flex;
+  color: #fff;
+  background-color: darkgreen;
+  flex-direction: column;
+}
+
+.tweet-container {
+  padding: 10px;
+
+  margin: 10px;
+  background-color: #ff00ff;
+  /* border-radius: 30px; */
+}
+.multitext {
+  text-align: justify;
+  background-color: pink;
+  color: rgb(21, 87, 26);
+}
+
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+button:active {
+  color: black;
+  cursor: pointer;
+}
